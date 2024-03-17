@@ -4,7 +4,7 @@ class Node:
         self.next = None
 
 
-def search(head, x):
+def searchElementInLinkedList(head, x):
     pos = 1
     curr = head
     while curr != None:
@@ -20,4 +20,4 @@ head.next = Node(15)
 head.next.next = Node(20)
 head.next.next.next = Node(25)
 x = 20
-print(search(head, x))
+print(searchElementInLinkedList(head, x))
